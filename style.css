@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 18em;
+    height: 32em;
+    border: .5em solid black;
+    border-radius: 1em;
+    padding: .4em;
+    background-image: linear-gradient(to top,rgba(9, 27, 32, 1),rgba(122, 235, 178, 0.5)),url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1em 1em .7em silver;
+}
+/*top icons, time,signal,wifi,battery state*/
+.top{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+    font-size: .8em;
+}
+.top .left{
+    flex:1;
+}
+.top .left{
+    flex:9;
+}
+/*middle section...contain...h3,icon,and paragraph*/
+.mid{
+    flex: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+.mid i{
+    font-size: 4em;
+}
+.mid h3{
+margin: .3em 0;
+}
+.mid p{
+    font-size: .6em;
+    letter-spacing:.4em;
+}
+
+/*bottom section..*/
+.bottom{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+button{
+    background: #000;
+    font-size: .6em;
+    padding: .7em 1.5em;
+    border-radius: .5em;
+    outline: none;
+    border: none;
+}
